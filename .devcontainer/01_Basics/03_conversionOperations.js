@@ -32,3 +32,44 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber); // prints 33 when 33 value is passed to the stringNumber
 console.log(typeof(stringNumber)); // prints string when 33 value is passed to the stringNumber
+
+// ******************* Operations ******************
+
+let value = 3
+let negValue = -value
+console.log(negValue); // prints -3 when 3 value is passed to value
+
+let addition = 2 + 2
+let substraction = 4 - 2
+let multiplication = 2 * 2
+let division = 4 / 2
+let remainder = 2 % 2
+let powerOfNumber = 3 ** 2
+
+
+console.table([addition, substraction, multiplication, division, remainder, powerOfNumber]);
+
+// prints 4, 2, 4, 2, 0, 9 for the above operations
+
+let str1 = "hello"
+let str2 = " faizal"
+let str3 = str1 + str2
+
+console.log(str3); // prints hello faizal
+
+console.log("1" + 2); // prints 12
+console.log(1 + "2"); // prints 12
+console.log("1" + 2 + 2); // prints 122
+console.log(1 + 2 + "2"); // prints 32
+
+console.log(+true) // prints 1
+console.log(+"") // prints 0
+
+let gameCounter = 100
+
+console.log(++gameCounter); // prints 101
+console.log(gameCounter++); // prints 101
+
+
+
+
