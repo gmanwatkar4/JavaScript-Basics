@@ -14,3 +14,7 @@ console.log(null >= 0); // prints true
 console.log(undefined == 0); // prints false 
 console.log(undefined > 0); // prints false
 console.log(undefined < 0); // prints false
+
+// ===
+
+console.log("2" === 2); // prints false
