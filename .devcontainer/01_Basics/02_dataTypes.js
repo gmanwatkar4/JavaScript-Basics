@@ -20,6 +20,3 @@ console.log(typeof "Faizal") // type is string
 console.log(typeof(null)) // type is object
 console.log(typeof(undefined)) // type is undefined
 console.log(typeof(symbol)) // type is undefined
-
-
-
