@@ -57,3 +57,13 @@ console.log(Object.values(tinderUser2)); // prints values from tinderUser2
 console.log(Object.entries(tinderUser2)); // prints arrays elements in the key : value pairs
 
 console.log(tinderUser2.hasOwnProperty('isLoggedIn')); // return the requested property exists or not
+
+// object de-structuring
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    course_instructor: "Faizal"
+}
+
+const {course_instructor : instructor} = course // we destructured the course_instructor object to instructor
+console.log(instructor)
