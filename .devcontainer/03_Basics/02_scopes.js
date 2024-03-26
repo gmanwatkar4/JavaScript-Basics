@@ -17,3 +17,18 @@ if(true){
 // console.log(a1); // it will giving an error cause its defined outside the scope
 // console.log(b1); // it will giving an error cause its defined outside the scope
 console.log(c1); // 30 will be print because the variable is declared as var
+
+function one(){
+    const username = "Faizal"
+
+    function two(){
+        const website = "youtube"
+        console.log(username); // faizal will be print
+    }
+    // console.log(website);
+
+    two()
+}
+
+one()
+
