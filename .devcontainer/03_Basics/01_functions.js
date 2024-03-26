@@ -44,3 +44,39 @@ function sheLovesMe(answer){
     return `She loves me ? ${answer}`
 }
 console.log(sheLovesMe()); // prints She loves me ? undefined
+
+// add multiple parameters to the function (...(rest operator))
+
+function calculateCartPrice(...num) {
+    return num
+}
+console.log(calculateCartPrice(10, 200, 500, 700));
+
+// passing object to the function
+
+const user = {
+    username: "faizal",
+    price: 199
+}
+
+function handleObject(myObj){
+    console.log(`username is ${myObj.username} and the price is ${myObj.price}`);
+}
+handleObject(user) // prints username is faizal and the price is 199
+
+// another way of passing the object
+handleObject({
+    username: "sam",
+    price: 399
+}) // prints username is sam and the price is 399
+
+// passing array to the function
+
+const myNewArray = [23, 56, 76, 65, 93]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray)); // prints 56 
+console.log(returnSecondValue([1, 2, 3, 4])); // prints 2
